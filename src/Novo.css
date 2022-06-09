@@ -1,0 +1,20 @@
+.centro{
+    width: 400px;
+    background: #F5F5DC;  
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.outro{
+    width: 300px;
+    background:	#E0FFFF; 
+    margin: 20px;
+    border-left-color:#1E90FF;
+    border-left-style: solid;
+    border-left-width: 3px;
+    
+}
+.strong{
+    font-size: large;
+}
+
