@@ -1,20 +1,54 @@
-.centro{
-    width: 400px;
-    background: #F5F5DC;  
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+.titulo,.subtitle{
+    padding-left: 20px;
+    margin: 0px;
 }
-.outro{
-    width: 300px;
-    background:	#E0FFFF; 
-    margin: 20px;
-    border-left-color:#1E90FF;
-    border-left-style: solid;
-    border-left-width: 3px;
-    
-}
-.strong{
-    font-size: large;
+.subtitle{
+    color: #abafaf;
+    margin-bottom: 10px;
 }
 
+.centro{
+    background: rgb(255, 255, 255);  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 250px;
+    height: 530px;
+    padding-top: 5px;
+}
+.outro{
+    background: #e8ffff;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 4px solid rgb(72, 156, 235);
+    width: 210px;
+}
+
+.c{
+    color: #898d8d;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px; 
+}
+
+.buton{
+    border-radius: 20px;
+    border-style: none;
+    padding: 4px 8px;
+    transition: all 0.8s;
+    align-self: flex-end;
+    margin-left: 130px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.buton:hover{
+    background-color: rgb(141, 133, 133);
+}
