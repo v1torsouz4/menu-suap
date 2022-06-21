@@ -1,5 +1,5 @@
 import "./Novo.css" 
-import Novo from "./Novo"
+import Novo from "./Novo.jsx"
 
 function App() {
    return(
